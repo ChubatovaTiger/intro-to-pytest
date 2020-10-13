@@ -1,4 +1,5 @@
 import pytest
+import time
 
 
 def test_div_zero_exception():
@@ -28,4 +29,5 @@ def test_approximate_matches():
     pytest.approx can be used to assert "approximate" numerical equality
     (compare UnitTest's "assertAlmostEqual")
     """
+    time.sleep(12)
     assert (0.1 + 0.2) == pytest.approx(0.3)
