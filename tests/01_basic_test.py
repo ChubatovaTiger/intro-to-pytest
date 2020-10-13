@@ -8,5 +8,17 @@ def test_example():
     """
     print("\nRunning test_example...")
     #assert DATA_SET_A == DATA_SET_B
+    #assert DATA_SET_A == DATA_SET_B
+    #assert DATA_SET_A == DATA_SET_B
+    #assert DATA_SET_A == DATA_SET_B
+    #assert DATA_SET_A == DATA_SET_B
+    #assert DATA_SET_A == DATA_SET_B
+    #assert DATA_SET_A == DATA_SET_B
+    #assert DATA_SET_A == DATA_SET_B
+    #assert DATA_SET_A == DATA_SET_B
+    #assert DATA_SET_A == DATA_SET_B
+    #assert DATA_SET_A == DATA_SET_B
+    #assert DATA_SET_A == DATA_SET_B
+    #assert DATA_SET_A == DATA_SET_B
     time.sleep(10)
     assert 1 == 2
