@@ -9,6 +9,7 @@ def test_div_zero_exception():
     with pytest.raises(ZeroDivisionError):
         x = 1 / 0
         print("1/0 = {}".format(x))
+        print('\x1b[6;30;42m' + 'Success!' + '\x1b[0m')
 
 
 def test_keyerror_details():
