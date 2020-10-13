@@ -23,6 +23,7 @@ def test_keyerror_details():
         print("Found Baz: {}".format(baz))
 
     print("\n(Raised: {})".format(ke))
+    print('\x1b[6;30;42m' + 'Success!' + '\x1b[0m')
 
 
 def test_approximate_matches():
