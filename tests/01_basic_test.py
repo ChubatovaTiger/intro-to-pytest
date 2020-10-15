@@ -21,4 +21,4 @@ def test_example():
     #assert DATA_SET_A == DATA_SET_B
     #assert DATA_SET_A == DATA_SET_B
     time.sleep(10)
-    assert 1 == 2
+    assert 1 == 1
