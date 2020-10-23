@@ -20,5 +20,6 @@ def test_example():
     #assert DATA_SET_A == DATA_SET_B
     #assert DATA_SET_A == DATA_SET_B
     #assert DATA_SET_A == DATA_SET_B
+    print gp.setproduct(sys.argv[1])
     time.sleep(10)
     assert 1 == 2
