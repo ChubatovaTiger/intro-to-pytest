@@ -22,6 +22,5 @@ def test_example():
     #assert DATA_SET_A == DATA_SET_B
     time.sleep(60)
     print("\nRunning basic test... after pause")
-    print gp.setproduct(sys.argv[1])
     time.sleep(10)
     assert 1 == 2
