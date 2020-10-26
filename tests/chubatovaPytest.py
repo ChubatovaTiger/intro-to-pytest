@@ -12,6 +12,8 @@ def test_example2():
     print("\nRunning example2... before pause")
     time.sleep(20)
     print("\nRunning example2... after pause")
+    time.sleep(20)
+    print("\nRunning example2... after second pause")
     assert 1 == 2
     
 def test_example3():
