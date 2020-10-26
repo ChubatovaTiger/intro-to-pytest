@@ -12,7 +12,7 @@ def test_example2():
     print("\nRunning example2... before pause")
     time.sleep(20)
     print("\nRunning example2... after pause")
-    assert 1 == 1
+    assert 1 == 2
     
 def test_example3():
     print("\nRunning example3... before pause")
