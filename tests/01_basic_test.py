@@ -26,5 +26,3 @@ def test_example():
     print("\nRunning basic test... after pause")
     time.sleep(1)
     assert 1 == 2
-    
-  spodf.sdkjks
