@@ -1,2 +1,0 @@
-[tool.pytest.ini_options]
-minversion = "12.0"
