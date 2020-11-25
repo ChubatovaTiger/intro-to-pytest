@@ -1,5 +1,4 @@
 ignore = E265
 exclude =
-    01_basic_test.py
     .venv
 max-complexity = 10
