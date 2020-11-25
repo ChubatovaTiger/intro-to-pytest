@@ -1,2 +1,11 @@
 [tool.pytest.ini_options]
-minversion = "12.0"
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests2",
+    "integration",
+]
+[tool.flake8.ini_options]
+minversion = "6.0"
+[tool.flake8]
+minversion = "6.0"
