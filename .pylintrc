@@ -1,0 +1,1049 @@
+Last login: Wed Nov 18 19:33:35 on ttys001
+nastasia.chubatova@munit-373 ~ % cd /Users/nastasia.chubatova/Downloads/teamcity107/bin
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity107/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity107/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity107/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity107/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat did not stop in time.
+PID file was not removed.
+To aid diagnostics a thread dump has been written to standard out.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 94548
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [95104], see log at /Users/nastasia.chubatova/Downloads/teamcity107/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity107/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity107/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity107/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity107/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat stopped.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 95949
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [96504], see log at /Users/nastasia.chubatova/Downloads/teamcity107/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity107/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity107/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity107/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity107/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat stopped.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 97248
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [97803], see log at /Users/nastasia.chubatova/Downloads/teamcity107/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity107/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity107/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity107/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity107/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat stopped.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 98919
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [99474], see log at /Users/nastasia.chubatova/Downloads/teamcity107/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity107/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity107/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity107/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity107/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat stopped.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 560
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [1252], see log at /Users/nastasia.chubatova/Downloads/teamcity107/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity107/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity107/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity107/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity107/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat did not stop in time.
+PID file was not removed.
+To aid diagnostics a thread dump has been written to standard out.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 2040
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [2602], see log at /Users/nastasia.chubatova/Downloads/teamcity107/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity107/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity107/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity107/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity107/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat did not stop in time.
+PID file was not removed.
+To aid diagnostics a thread dump has been written to standard out.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 3380
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [3937], see log at /Users/nastasia.chubatova/Downloads/teamcity107/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity107/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity107/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity107/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity107/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat stopped.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % cd /Users/nastasia.chubatova/Downloads/teamcity103/bin
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity103
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity103
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity103/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity103/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity103/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity103/bin/../logs/teamcity.pid
+PID file found but either no matching process was found or the current user does not have permission to stop the process. Stop aborted.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity103/buildAgent
+Received stop command from console. 
+Unable to locate agent port file: /Users/nastasia.chubatova/Downloads/TeamCity103/buildAgent/logs/buildAgent.xmlRpcPort 
+Agent is not running? 
+Sending agent shutdown command to: http://localhost:9090 
+Failed to shutdown agent gracefully: Connection refused (Connection refused) 
+Cannot stop agent gracefully, you can try to kill agent by './agent.sh stop kill' command
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 9410
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity103/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity103/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [9961], see log at /Users/nastasia.chubatova/Downloads/teamcity103/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity103
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity103
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity103/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity103/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity103/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity103/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat did not stop in time.
+PID file was not removed.
+To aid diagnostics a thread dump has been written to standard out.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity103/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % cd /Users/nastasia.chubatova/Downloads/teamcity108/bin
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 10930
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity108/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity108/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [11477], see log at /Users/nastasia.chubatova/Downloads/teamcity108/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity108
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity108
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity108/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity108/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity108/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity108/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat stopped.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity108/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % cd /Users/nastasia.chubatova/Downloads/teamcity107/bin
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 13142
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [13698], see log at /Users/nastasia.chubatova/Downloads/teamcity107/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity107
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity107/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity107/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity107/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity107/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat stopped.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity107/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % cd /Users/nastasia.chubatova/Downloads/teamcity85464/bin
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 19476
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity85464/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity85464/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [20025], see log at /Users/nastasia.chubatova/Downloads/teamcity85464/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity85464
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity85464
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity85464/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity85464/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity85464/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity85464/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat stopped.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity85464/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % cd /Users/nastasia.chubatova/Downloads/teamcity85471/bin
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 22147
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity85471/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity85471/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [22695], see log at /Users/nastasia.chubatova/Downloads/teamcity85471/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity85471
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity85471
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity85471/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity85471/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity85471/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity85471/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat stopped.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity85471/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % cd /Users/nastasia.chubatova/Downloads/teamcity85471/bin
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 24354
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity85471/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity85471/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [24916], see log at /Users/nastasia.chubatova/Downloads/teamcity85471/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity85471
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity85471
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity85471/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity85471/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity85471/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity85471/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat stopped.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity85471/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity85471
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity85471
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity85471/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity85471/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity85471/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity85471/bin/../logs/teamcity.pid
+$CATALINA_PID was set but the specified file does not exist. Is Tomcat running? Stop aborted.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity85471/buildAgent
+Received stop command from console. 
+Unable to locate agent port file: /Users/nastasia.chubatova/Downloads/TeamCity85471/buildAgent/logs/buildAgent.xmlRpcPort 
+Agent is not running? 
+Sending agent shutdown command to: http://localhost:9090 
+Failed to shutdown agent gracefully: Connection refused (Connection refused) 
+Cannot stop agent gracefully, you can try to kill agent by './agent.sh stop kill' command
+nastasia.chubatova@munit-373 bin % cd /Users/nastasia.chubatova/Downloads/teamcity109/bin  
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 27190
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity109/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity109/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [27737], see log at /Users/nastasia.chubatova/Downloads/teamcity109/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity109
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity109
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity109/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity109/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity109/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity109/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat did not stop in time.
+PID file was not removed.
+To aid diagnostics a thread dump has been written to standard out.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity109/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % cd /Users/nastasia.chubatova/Downloads/teamcity110/bin
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 42087
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity110/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity110/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [42644], see log at /Users/nastasia.chubatova/Downloads/teamcity110/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity110
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity110
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity110/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity110/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity110/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity110/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat did not stop in time.
+PID file was not removed.
+To aid diagnostics a thread dump has been written to standard out.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity110/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 45478
+Build agent is already running with PID 43531
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 45863
+Build agent is already running with PID 43531
+nastasia.chubatova@munit-373 bin % ls                
+TeamCityService.exe			setclasspath.sh
+append.bat				shutdown.bat
+bootstrap.jar				shutdown.sh
+catalina-tasks.xml			startup.bat
+catalina.bat				startup.sh
+catalina.sh				teamcity-server-configurator.jar
+commons-daemon-native.tar.gz		teamcity-server-internal.bat
+commons-daemon.jar			teamcity-server-restarter.bat
+configtest.bat				teamcity-server-restarter.sh
+configtest.sh				teamcity-server-update.jar
+daemon.sh				teamcity-server.bat
+digest.bat				teamcity-server.sh
+digest.sh				teamcity-update.bat
+findJava.bat				teamcity-update.sh
+findJava.sh				tomcat-juli.jar
+maintainDB.cmd				tomcat-native.tar.gz
+maintainDB.sh				tool-wrapper.bat
+runAll.bat				tool-wrapper.sh
+runAll.sh				version.bat
+setclasspath.bat			version.sh
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity110
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity110
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity110/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity110/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity110/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity110/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat stopped.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity110/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 46710
+Build agent is already running with PID 43531
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity110
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity110
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity110/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity110/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity110/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity110/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat stopped.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity110/buildAgent
+Received stop command from console. 
+Unable to locate agent port file: /Users/nastasia.chubatova/Downloads/TeamCity110/buildAgent/logs/buildAgent.xmlRpcPort 
+Agent is not running? 
+Sending agent shutdown command to: http://localhost:9090 
+Failed to shutdown agent gracefully: Connection refused (Connection refused) 
+Cannot stop agent gracefully, you can try to kill agent by './agent.sh stop kill' command
+nastasia.chubatova@munit-373 bin % cd /Users/nastasia.chubatova/Downloads/teamcity111/bin
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 54007
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity111/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity111/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [54556], see log at /Users/nastasia.chubatova/Downloads/teamcity111/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity111
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity111
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity111/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity111/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity111/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity111/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat stopped.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity111/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % cd /Users/nastasia.chubatova/Downloads/teamcity201924/bin
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 61326
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity201924/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity201924/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [61882], see log at /Users/nastasia.chubatova/Downloads/teamcity201924/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity201924
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity201924
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity201924/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity201924/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity201924/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity201924/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat did not stop in time.
+PID file was not removed.
+To aid diagnostics a thread dump has been written to standard out.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity201924/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % cd /Users/nastasia.chubatova/Downloads/teamcity111/bin   
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 64910
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity111/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity111/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [65465], see log at /Users/nastasia.chubatova/Downloads/teamcity111/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % sh runAll.sh stop 
+Removing lock file so server won't automatically restart
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Using CATALINA_BASE:   /Users/nastasia.chubatova/Downloads/teamcity111
+Using CATALINA_HOME:   /Users/nastasia.chubatova/Downloads/teamcity111
+Using CATALINA_TMPDIR: /Users/nastasia.chubatova/Downloads/teamcity111/temp
+Using JRE_HOME:        /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+Using CLASSPATH:       /Users/nastasia.chubatova/Downloads/teamcity111/bin/bootstrap.jar:/Users/nastasia.chubatova/Downloads/teamcity111/bin/tomcat-juli.jar
+Using CATALINA_PID:    /Users/nastasia.chubatova/Downloads/teamcity111/bin/../logs/teamcity.pid
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat stopped.
+Stopping TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity111/buildAgent
+Received stop command from console. 
+Sending agent shutdown command to: http://localhost:9090 
+Shutdown command successfully sent. Agent will exit when idle. 
+nastasia.chubatova@munit-373 bin % sh runAll.sh start
+Spawning TeamCity restarter in separate process
+TeamCity restarter running with PID 915
+Starting TeamCity build agent...
+Java executable is found: '/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin/java'
+Starting TeamCity Build Agent Launcher...
+Agent home directory is /Users/nastasia.chubatova/Downloads/TeamCity111/buildAgent
+Agent Launcher Java runtime version is 11 
+Lock file: /Users/nastasia.chubatova/Downloads/TeamCity111/buildAgent/logs/buildAgent.properties.lock 
+Using no lock 
+Done [1471], see log at /Users/nastasia.chubatova/Downloads/teamcity111/buildAgent/logs/teamcity-agent.log
+nastasia.chubatova@munit-373 bin % python3 -m pytest version
+/usr/local/opt/python@3.9/bin/python3.9: No module named pytest
+nastasia.chubatova@munit-373 bin % python3 -m pytest --version
+/usr/local/opt/python@3.9/bin/python3.9: No module named pytest
+nastasia.chubatova@munit-373 bin % pip3 install pytest
+Collecting pytest
+  Using cached pytest-6.1.2-py3-none-any.whl (272 kB)
+Collecting attrs>=17.4.0
+  Using cached attrs-20.3.0-py2.py3-none-any.whl (49 kB)
+Collecting pluggy<1.0,>=0.12
+  Using cached pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Collecting toml
+  Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting py>=1.8.2
+  Using cached py-1.9.0-py2.py3-none-any.whl (99 kB)
+Collecting packaging
+  Using cached packaging-20.4-py2.py3-none-any.whl (37 kB)
+Collecting iniconfig
+  Using cached iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+Collecting pyparsing>=2.0.2
+  Using cached pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Requirement already satisfied: six in /usr/local/lib/python3.9/site-packages (from packaging->pytest) (1.15.0)
+Installing collected packages: attrs, pluggy, toml, py, pyparsing, packaging, iniconfig, pytest
+Successfully installed attrs-20.3.0 iniconfig-1.1.1 packaging-20.4 pluggy-0.13.1 py-1.9.0 pyparsing-2.4.7 pytest-6.1.2 toml-0.10.2
+nastasia.chubatova@munit-373 bin % python3 -m pytest --version
+pytest 6.1.2
+nastasia.chubatova@munit-373 bin % python3 -m pytest --version
+pytest 6.1.2
+nastasia.chubatova@munit-373 bin % python3 -m pytest --help   
+usage: __main__.py [options] [file_or_dir] [file_or_dir] [...]
+
+positional arguments:
+  file_or_dir
+
+general:
+  -k EXPRESSION         only run tests which match the given substring
+                        expression. An expression is a python evaluatable
+                        expression where all names are substring-matched against
+                        test names and their parent classes. Example: -k
+                        'test_method or test_other' matches all test functions
+                        and classes whose name contains 'test_method' or
+                        'test_other', while -k 'not test_method' matches those
+                        that don't contain 'test_method' in their names. -k 'not
+                        test_method and not test_other' will eliminate the
+                        matches. Additionally keywords are matched to classes
+                        and functions containing extra names in their
+                        'extra_keyword_matches' set, as well as functions which
+                        have names assigned directly to them. The matching is
+                        case-insensitive.
+  -m MARKEXPR           only run tests matching given mark expression.
+                        For example: -m 'mark1 and not mark2'.
+  --markers             show markers (builtin, plugin and per-project ones).
+  -x, --exitfirst       exit instantly on first error or failed test.
+  --fixtures, --funcargs
+                        show available fixtures, sorted by plugin appearance
+                        (fixtures with leading '_' are only shown with '-v')
+  --fixtures-per-test   show fixtures per test
+  --pdb                 start the interactive Python debugger on errors or
+                        KeyboardInterrupt.
+  --pdbcls=modulename:classname
+                        start a custom interactive Python debugger on errors.
+                        For example:
+                        --pdbcls=IPython.terminal.debugger:TerminalPdb
+  --trace               Immediately break when running each test.
+  --capture=method      per-test capturing method: one of fd|sys|no|tee-sys.
+  -s                    shortcut for --capture=no.
+  --runxfail            report the results of xfail tests as if they were not
+                        marked
+  --lf, --last-failed   rerun only the tests that failed at the last run (or all
+                        if none failed)
+  --ff, --failed-first  run all tests, but run the last failures first.
+                        This may re-order tests and thus lead to repeated
+                        fixture setup/teardown.
+  --nf, --new-first     run tests from new files first, then the rest of the
+                        tests sorted by file mtime
+  --cache-show=[CACHESHOW]
+                        show cache contents, don't perform collection or tests.
+                        Optional argument: glob (default: '*').
+  --cache-clear         remove all cache contents at start of test run.
+  --lfnf={all,none}, --last-failed-no-failures={all,none}
+                        which tests to run with no previously (known) failures.
+  --sw, --stepwise      exit on test failure and continue from last failing test
+                        next time
+  --stepwise-skip       ignore the first failing test but stop on the next
+                        failing test
+
+reporting:
+  --durations=N         show N slowest setup/test durations (N=0 for all).
+  --durations-min=N     Minimal duration in seconds for inclusion in slowest
+                        list. Default 0.005
+  -v, --verbose         increase verbosity.
+  --no-header           disable header
+  --no-summary          disable summary
+  -q, --quiet           decrease verbosity.
+  --verbosity=VERBOSE   set verbosity. Default is 0.
+  -r chars              show extra test summary info as specified by chars:
+                        (f)ailed, (E)rror, (s)kipped, (x)failed, (X)passed,
+                        (p)assed, (P)assed with output, (a)ll except passed
+                        (p/P), or (A)ll. (w)arnings are enabled by default (see
+                        --disable-warnings), 'N' can be used to reset the list.
+                        (default: 'fE').
+  --disable-warnings, --disable-pytest-warnings
+                        disable warnings summary
+  -l, --showlocals      show locals in tracebacks (disabled by default).
+  --tb=style            traceback print mode (auto/long/short/line/native/no).
+  --show-capture={no,stdout,stderr,log,all}
+                        Controls how captured stdout/stderr/log is shown on
+                        failed tests. Default is 'all'.
+  --full-trace          don't cut any tracebacks (default is to cut).
+  --color=color         color terminal output (yes/no/auto).
+  --code-highlight={yes,no}
+                        Whether code should be highlighted (only if --color is
+                        also enabled)
+  --pastebin=mode       send failed|all info to bpaste.net pastebin service.
+  --junit-xml=path      create junit-xml style report file at given path.
+  --junit-prefix=str    prepend prefix to classnames in junit-xml output
+
+pytest-warnings:
+  -W PYTHONWARNINGS, --pythonwarnings=PYTHONWARNINGS
+                        set which warnings to report, see -W option of python
+                        itself.
+  --maxfail=num         exit after first num failures or errors.
+  --strict-config       any warnings encountered while parsing the `pytest`
+                        section of the configuration file raise errors.
+  --strict-markers, --strict
+                        markers not registered in the `markers` section of the
+                        configuration file raise errors.
+  -c file               load configuration from `file` instead of trying to
+                        locate one of the implicit configuration files.
+  --continue-on-collection-errors
+                        Force test execution even if collection errors occur.
+  --rootdir=ROOTDIR     Define root directory for tests. Can be relative path:
+                        'root_dir', './root_dir', 'root_dir/another_dir/';
+                        absolute path: '/home/user/root_dir'; path with
+                        variables: '$HOME/root_dir'.
+
+collection:
+  --collect-only, --co  only collect tests, don't execute them.
+  --pyargs              try to interpret all arguments as python packages.
+  --ignore=path         ignore path during collection (multi-allowed).
+  --ignore-glob=path    ignore path pattern during collection (multi-allowed).
+  --deselect=nodeid_prefix
+                        deselect item (via node id prefix) during collection
+                        (multi-allowed).
+  --confcutdir=dir      only load conftest.py's relative to specified dir.
+  --noconftest          Don't load any conftest.py files.
+  --keep-duplicates     Keep duplicate tests.
+  --collect-in-virtualenv
+                        Don't ignore tests in a local virtualenv directory
+  --import-mode={prepend,append,importlib}
+                        prepend/append to sys.path when importing test modules
+                        and conftest files, default is to prepend.
+  --doctest-modules     run doctests in all .py modules
+  --doctest-report={none,cdiff,ndiff,udiff,only_first_failure}
+                        choose another output format for diffs on doctest
+                        failure
+  --doctest-glob=pat    doctests file matching pattern, default: test*.txt
+  --doctest-ignore-import-errors
+                        ignore doctest ImportErrors
+  --doctest-continue-on-failure
+                        for a given doctest, continue to run after the first
+                        failure
+
+test session debugging and configuration:
+  --basetemp=dir        base temporary directory for this test run.(warning:
+                        this directory is removed if it exists)
+  -V, --version         display pytest version and information about
+                        plugins.When given twice, also display information about
+                        plugins.
+  -h, --help            show help message and configuration info
+  -p name               early-load given plugin module name or entry point
+                        (multi-allowed).
+                        To avoid loading of plugins, use the `no:` prefix, e.g.
+                        `no:doctest`.
+  --trace-config        trace considerations of conftest.py files.
+  --debug               store internal tracing debug information in
+                        'pytestdebug.log'.
+  -o OVERRIDE_INI, --override-ini=OVERRIDE_INI
+                        override ini option with "option=value" style, e.g. `-o
+                        xfail_strict=True -o cache_dir=cache`.
+  --assert=MODE         Control assertion debugging tools.
+                        'plain' performs no assertion debugging.
+                        'rewrite' (the default) rewrites assert statements in
+                        test modules on import to provide assert expression
+                        information.
+  --setup-only          only setup fixtures, do not execute tests.
+  --setup-show          show setup of fixtures while executing tests.
+  --setup-plan          show what fixtures and tests would be executed but don't
+                        execute anything.
+
+logging:
+  --log-level=LEVEL     level of messages to catch/display.
+                        Not set by default, so it depends on the root/parent log
+                        handler's effective level, where it is "WARNING" by
+                        default.
+  --log-format=LOG_FORMAT
+                        log format as used by the logging module.
+  --log-date-format=LOG_DATE_FORMAT
+                        log date format as used by the logging module.
+  --log-cli-level=LOG_CLI_LEVEL
+                        cli logging level.
+  --log-cli-format=LOG_CLI_FORMAT
+                        log format as used by the logging module.
+  --log-cli-date-format=LOG_CLI_DATE_FORMAT
+                        log date format as used by the logging module.
+  --log-file=LOG_FILE   path to a file when logging will be written to.
+  --log-file-level=LOG_FILE_LEVEL
+                        log file logging level.
+  --log-file-format=LOG_FILE_FORMAT
+                        log format as used by the logging module.
+  --log-file-date-format=LOG_FILE_DATE_FORMAT
+                        log date format as used by the logging module.
+  --log-auto-indent=LOG_AUTO_INDENT
+                        Auto-indent multiline messages passed to the logging
+                        module. Accepts true|on, false|off or an integer.
+
+[pytest] ini-options in the first pytest.ini|tox.ini|setup.cfg file found:
+
+  markers (linelist):   markers for test functions
+  empty_parameter_set_mark (string):
+                        default marker for empty parametersets
+  norecursedirs (args): directory patterns to avoid for recursion
+  testpaths (args):     directories to search for tests when no files or
+                        directories are given in the command line.
+  filterwarnings (linelist):
+                        Each line specifies a pattern for
+                        warnings.filterwarnings. Processed after
+                        -W/--pythonwarnings.
+  usefixtures (args):   list of default fixtures to be used with this project
+  python_files (args):  glob-style file patterns for Python test module
+                        discovery
+  python_classes (args):
+                        prefixes or glob names for Python test class discovery
+  python_functions (args):
+                        prefixes or glob names for Python test function and
+                        method discovery
+  disable_test_id_escaping_and_forfeit_all_rights_to_community_support (bool):
+                        disable string escape non-ascii characters, might cause
+                        unwanted side effects(use at your own risk)
+  console_output_style (string):
+                        console output: "classic", or with additional progress
+                        information ("progress" (percentage) | "count").
+  xfail_strict (bool):  default for the strict parameter of xfail markers when
+                        not given explicitly (default: False)
+  enable_assertion_pass_hook (bool):
+                        Enables the pytest_assertion_pass hook.Make sure to
+                        delete any previously generated pyc cache files.
+  junit_suite_name (string):
+                        Test suite name for JUnit report
+  junit_logging (string):
+                        Write captured log messages to JUnit report: one of
+                        no|log|system-out|system-err|out-err|all
+  junit_log_passing_tests (bool):
+                        Capture log information for passing tests to JUnit
+                        report:
+  junit_duration_report (string):
+                        Duration time to report: one of total|call
+  junit_family (string):
+                        Emit XML for schema: one of legacy|xunit1|xunit2
+  doctest_optionflags (args):
+                        option flags for doctests
+  doctest_encoding (string):
+                        encoding used for doctest files
+  cache_dir (string):   cache directory path.
+  log_level (string):   default value for --log-level
+  log_format (string):  default value for --log-format
+  log_date_format (string):
+                        default value for --log-date-format
+  log_cli (bool):       enable log display during test run (also known as "live
+                        logging").
+  log_cli_level (string):
+                        default value for --log-cli-level
+  log_cli_format (string):
+                        default value for --log-cli-format
+  log_cli_date_format (string):
+                        default value for --log-cli-date-format
+  log_file (string):    default value for --log-file
+  log_file_level (string):
+                        default value for --log-file-level
+  log_file_format (string):
+                        default value for --log-file-format
+  log_file_date_format (string):
+                        default value for --log-file-date-format
+  log_auto_indent (string):
+                        default value for --log-auto-indent
+  faulthandler_timeout (string):
+                        Dump the traceback of all threads if a test takes more
+                        than TIMEOUT seconds to finish.
+  addopts (args):       extra command line options
+  minversion (string):  minimally required pytest version
+  required_plugins (args):
+                        plugins that must be present for pytest to run
+
+environment variables:
+  PYTEST_ADDOPTS           extra command line options
+  PYTEST_PLUGINS           comma-separated plugins to load during startup
+  PYTEST_DISABLE_PLUGIN_AUTOLOAD set to disable plugin auto-loading
+  PYTEST_DEBUG             set to enable debug tracing of pytest's internals
+
+
+to see available markers type: pytest --markers
+to see available fixtures type: pytest --fixtures
+(shown according to specified file_or_dir or current dir if not specified; fixtures with leading '_' are only shown with the '-v' option
+nastasia.chubatova@munit-373 bin % python3 -m teamcity-messages
+/usr/local/opt/python@3.9/bin/python3.9: No module named teamcity-messages
+nastasia.chubatova@munit-373 bin % python3 -m teamcity-messages
+/usr/local/opt/python@3.9/bin/python3.9: No module named teamcity-messages
+nastasia.chubatova@munit-373 bin % python -m teamcity-messages 
+/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python: No module named teamcity-messages
+nastasia.chubatova@munit-373 bin % python3 -m teamcity-messages
+/usr/local/opt/python@3.9/bin/python3.9: No module named teamcity-messages
+nastasia.chubatova@munit-373 bin % python3 -m pylint --generate-rcfile > .pylintrc
+/usr/local/opt/python@3.9/bin/python3.9: No module named pylint
+nastasia.chubatova@munit-373 bin % pip3 install pylint
+Collecting pylint
+  Using cached pylint-2.6.0-py3-none-any.whl (325 kB)
+Collecting isort<6,>=4.2.5
+  Using cached isort-5.6.4-py3-none-any.whl (98 kB)
+Requirement already satisfied: toml>=0.7.1 in /usr/local/lib/python3.9/site-packages (from pylint) (0.10.2)
+Collecting astroid<=2.5,>=2.4.0
+  Using cached astroid-2.4.2-py3-none-any.whl (213 kB)
+Collecting mccabe<0.7,>=0.6
+  Using cached mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Processing /Users/nastasia.chubatova/Library/Caches/pip/wheels/41/20/07/2a3e02cdfc8b442404202f6ef99ff1b1c16b73910968a46f2f/lazy_object_proxy-1.4.3-cp39-cp39-macosx_10_15_x86_64.whl
+Collecting wrapt~=1.11
+  Using cached wrapt-1.12.1.tar.gz (27 kB)
+Requirement already satisfied: six~=1.12 in /usr/local/lib/python3.9/site-packages (from astroid<=2.5,>=2.4.0->pylint) (1.15.0)
+Building wheels for collected packages: wrapt
+  Building wheel for wrapt (setup.py) ... done
+  Created wheel for wrapt: filename=wrapt-1.12.1-cp39-cp39-macosx_10_15_x86_64.whl size=32590 sha256=f161811ae8fd935ecf0f975748f535a93e3d267bf1892f5f498da8e35c4de4cc
+  Stored in directory: /Users/nastasia.chubatova/Library/Caches/pip/wheels/98/23/68/efe259aaca055e93b08e74fbe512819c69a2155c11ba3c0f10
+Successfully built wrapt
+Installing collected packages: isort, lazy-object-proxy, wrapt, astroid, mccabe, pylint
+Successfully installed astroid-2.4.2 isort-5.6.4 lazy-object-proxy-1.4.3 mccabe-0.6.1 pylint-2.6.0 wrapt-1.12.1
+nastasia.chubatova@munit-373 bin % python3 -m pylint --generate-rcfile > .pylintrc
+nastasia.chubatova@munit-373 bin % vi .pylintrc 
+
+# some branches might not be evaluated, which results in partial inference. In
+# that case, it might be useful to still emit no-member and other checks for
+# the rest of the inferred objects.
+ignore-on-opaque-inference=yes
+
+# List of class names for which member attributes should not be checked (useful
+# for classes with dynamically set attributes). This supports the use of
+# qualified names.
+ignored-classes=optparse.Values,thread._local,_thread._local
+
+# List of module names for which member attributes should not be checked
+# (useful for modules/projects where namespaces are manipulated during runtime
+# and thus existing member attributes cannot be deduced by static analysis). It
+# supports qualified module names, as well as Unix pattern matching.
+ignored-modules=
+
+# Show a hint with possible names when a member name was not found. The aspect
+# of finding the hint is based on edit distance.
+missing-member-hint=yes
+
+# The minimum edit distance a name should have in order to be considered a
+# similar match for a missing member name.
+missing-member-hint-distance=1
+
