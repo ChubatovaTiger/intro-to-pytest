@@ -1,2 +1,0 @@
-[flake8]
-exclude = 01_basic_test.py
