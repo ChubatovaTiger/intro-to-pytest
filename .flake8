@@ -1,4 +1,5 @@
 ignore = D203
 exclude =
     tests/01_basic_test.py
+    .venv
 max-complexity = 10
