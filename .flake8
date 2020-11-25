@@ -1,4 +1,1 @@
-ignore = E265
-exclude =
-    .venv
-max-complexity = 10
+ignore = E501
