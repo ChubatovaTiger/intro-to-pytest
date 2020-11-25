@@ -3,7 +3,7 @@
 
 # Add files or directories matching the regex patterns to the blacklist. The
 # regex matches against base names, not paths.
-#ignore-patterns=01_basic_test.py
+ignore-patterns=01_basic_test.py
 
 
 disable=W
