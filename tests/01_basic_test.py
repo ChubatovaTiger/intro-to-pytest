@@ -25,4 +25,4 @@ def test_example():
     time.sleep(6)
     print("\nRunning basic test... after pause")
     time.sleep(1)
-    assert 1 == 1
+    assert 1 == 2
