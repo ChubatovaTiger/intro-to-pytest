@@ -1,4 +1,5 @@
 import pytest
+import time
 
 
 @pytest.mark.db
@@ -20,6 +21,8 @@ def test_fake_multi_join_query():
     """
     Test cases can have multiple marks assigned
     """
+    print("Hi from 11_mark_test")
+    time.sleep(25)
     assert True
 
 
