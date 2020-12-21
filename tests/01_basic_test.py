@@ -10,8 +10,3 @@ def test_example():
     print("\nRunning basic test1... after pause")
     assert 1 == 2
     
-def test_example():
-    print("\nRunning basic test2... before pause")
-    time.sleep(25)
-    print("\nRunning basic test2... after pause")
-    assert 1 == 2
