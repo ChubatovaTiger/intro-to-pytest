@@ -22,6 +22,6 @@ def test_example():
     #assert DATA_SET_A == DATA_SET_B
     #assert DATA_SET_A == DATA_SET_B
     #assert DATA_SET_A == DATA_SET_B
-    time.sleep(100)
+    time.sleep(25)
     print("\nRunning basic test... after pause")
     assert 1 == 2
