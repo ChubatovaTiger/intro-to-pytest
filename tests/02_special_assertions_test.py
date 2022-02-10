@@ -30,8 +30,9 @@ def test_approximate_matches():
     """
     pytest.approx can be used to assert "approximate" numerical equality
     (compare UnitTest's "assertAlmostEqual")
-    """
+
     print("special_assertions_test before pause")
     time.sleep(60)
     print("special_assertions_test after pause")
+    """
     assert (0.1 + 0.2) == pytest.approx(0.3)
