@@ -7,16 +7,16 @@
     <build-runners>
       <runner id="RUNNER_1" name="" type="python-runner">
         <parameters>
-    <param name="command" value="pytest" />
-    <param name="coverageArgs" value="--omit=*lib*" />
-    <param name="envTool" value="poetry" />
-    <param name="installToolPackage" value="true" />
-    <param name="isTestReportingEnabled" value="true" />
-    <param name="pythonVersion" value="python3" />
-    <param name="scriptArguments" value="-n3" />
-    <param name="teamcity.step.mode" value="default" />
-    <param name="virtualenvEnvName" value=".venv" />
-    <param name="virtualenvFile" value="requirements.txt" />
+          <param name="command" value="pytest" />
+          <param name="coverageArgs" value="--omit=*lib*" />
+          <param name="envTool" value="poetry" />
+          <param name="installToolPackage" value="true" />
+          <param name="isTestReportingEnabled" value="true" />
+          <param name="pythonVersion" value="python3" />
+          <param name="scriptArguments" value="-n3" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="virtualenvEnvName" value=".venv" />
+          <param name="virtualenvFile" value="requirements.txt" />
         </parameters>
       </runner>
     </build-runners>
